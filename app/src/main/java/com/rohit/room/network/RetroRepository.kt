@@ -23,7 +23,7 @@ class RetroRepository @Inject constructor(private val retroServiceInterface: Ret
     //get the data from github api...
     fun makeApiCall(query: String?) {
         val call: Call<RepositoriesList> = retroServiceInterface.getDataFromAPI(query!!)
-        call?.enqueue(object : Callback<RepositoriesList>{
+        call.enqueue(object : Callback<RepositoriesList>{
             override fun onResponse(
                 call: Call<RepositoriesList>,
                 response: Response<RepositoriesList>

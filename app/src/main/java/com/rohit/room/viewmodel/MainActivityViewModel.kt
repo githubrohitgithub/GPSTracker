@@ -15,7 +15,7 @@ class MainActivityViewModel @Inject constructor(private val repository: RetroRep
         return repository.getAllRecords()
     }
 
-    fun makeApiCall() {
-        repository.makeApiCall("ny")
+    fun makeApiCall(query:String) {
+        repository.makeApiCall(query)
     }
 }

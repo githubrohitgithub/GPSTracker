@@ -38,12 +38,12 @@ class MainActivity : AppCompatActivity() {
 
     private fun initMainViewModel() {
         val viewModel  = ViewModelProvider(this).get(MainActivityViewModel::class.java)
-        viewModel.getAllRepositoryList().observe(this, Observer<List<RepositoryData>>{
+        viewModel.getAllRepositoryList().observe(this) {
             recyclerViewAdapter.setListData(it)
             recyclerViewAdapter.notifyDataSetChanged()
-        })
+        }
 
 
-        viewModel.makeApiCall()
+        viewModel.makeApiCall("ny")
     }
 }
