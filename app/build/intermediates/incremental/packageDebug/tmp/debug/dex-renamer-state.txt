@@ -1,7 +1,7 @@
-#Wed Jan 19 11:31:10 IST 2022
-base.1=D\:\\AndroidStudioProjects\\Learn\\Room-Retrofit-mvvm-hilt\\Retrofit_Room_Hilt_MVVM_Kotlin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+#Tue May 03 22:39:34 IST 2022
+base.1=C\:\\Users\\user\\Desktop\\GPSTracker\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
 path.1=classes.dex
-base.0=D\:\\AndroidStudioProjects\\Learn\\Room-Retrofit-mvvm-hilt\\Retrofit_Room_Hilt_MVVM_Kotlin\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.0=C\:\\Users\\user\\Desktop\\GPSTracker\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
 path.0=classes.dex

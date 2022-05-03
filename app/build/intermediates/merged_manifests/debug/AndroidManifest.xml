@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.rohit.room"
+    package="com.rohit.gpstracker"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
         android:minSdkVersion="24"
-        android:targetSdkVersion="30" />
+        android:targetSdkVersion="32" />
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name="com.rohit.room.MyRoomRetroApp"
+        android:name="com.rohit.gpstracker.MyRoomRetroApp"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -22,7 +22,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Paging3WithRoom" >
-        <activity android:name="com.rohit.room.MainActivity" >
+        <activity android:name="com.rohit.gpstracker.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -36,10 +36,16 @@
             android:exported="false" />
 
         <provider
-            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="com.rohit.room.lifecycle-process"
-            android:exported="false"
-            android:multiprocess="true" />
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.rohit.gpstracker.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
     </application>
 
 </manifest>

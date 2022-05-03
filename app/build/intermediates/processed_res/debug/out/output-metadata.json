@@ -4,7 +4,7 @@
     "type": "PROCESSED_RES",
     "kind": "Directory"
   },
-  "applicationId": "com.rohit.room",
+  "applicationId": "com.rohit.gpstracker",
   "variantName": "processDebugResources",
   "elements": [
     {

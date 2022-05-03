@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RetrofitRoomHiltMvvm.iml" filepath="$PROJECT_DIR$/.idea/modules/RetrofitRoomHiltMvvm.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RetrofitRoomHiltMvvm.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RetrofitRoomHiltMvvm.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GPSTracker.iml" filepath="$PROJECT_DIR$/.idea/modules/GPSTracker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GPSTracker.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GPSTracker.app.iml" />
     </modules>
   </component>
 </project>

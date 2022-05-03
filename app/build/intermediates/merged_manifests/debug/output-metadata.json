@@ -4,7 +4,7 @@
     "type": "MERGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.rohit.room",
+  "applicationId": "com.rohit.gpstracker",
   "variantName": "debug",
   "elements": [
     {

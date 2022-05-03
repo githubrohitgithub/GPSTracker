@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "RetrofitRoomHiltMvvm"
+rootProject.name = "GPSTracker"

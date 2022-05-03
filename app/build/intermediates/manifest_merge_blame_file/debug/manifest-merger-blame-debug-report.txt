@@ -1,74 +1,85 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.rohit.room"
+3    package="com.rohit.gpstracker"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->D:\AndroidStudioProjects\Learn\Room-Retrofit-mvvm-hilt\Retrofit_Room_Hilt_MVVM_Kotlin\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="30" />
-9-->D:\AndroidStudioProjects\Learn\Room-Retrofit-mvvm-hilt\Retrofit_Room_Hilt_MVVM_Kotlin\app\src\main\AndroidManifest.xml
+8-->C:\Users\user\Desktop\GPSTracker\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\user\Desktop\GPSTracker\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\AndroidStudioProjects\Learn\Room-Retrofit-mvvm-hilt\Retrofit_Room_Hilt_MVVM_Kotlin\app\src\main\AndroidManifest.xml:5:5-66
-11-->D:\AndroidStudioProjects\Learn\Room-Retrofit-mvvm-hilt\Retrofit_Room_Hilt_MVVM_Kotlin\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\Users\user\Desktop\GPSTracker\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\user\Desktop\GPSTracker\app\src\main\AndroidManifest.xml:5:22-64
 12
 13    <application
-13-->D:\AndroidStudioProjects\Learn\Room-Retrofit-mvvm-hilt\Retrofit_Room_Hilt_MVVM_Kotlin\app\src\main\AndroidManifest.xml:6:5-21:19
-14        android:name="com.rohit.room.MyRoomRetroApp"
-14-->D:\AndroidStudioProjects\Learn\Room-Retrofit-mvvm-hilt\Retrofit_Room_Hilt_MVVM_Kotlin\app\src\main\AndroidManifest.xml:8:9-53
+13-->C:\Users\user\Desktop\GPSTracker\app\src\main\AndroidManifest.xml:6:5-21:19
+14        android:name="com.rohit.gpstracker.MyRoomRetroApp"
+14-->C:\Users\user\Desktop\GPSTracker\app\src\main\AndroidManifest.xml:8:9-59
 15        android:allowBackup="true"
-15-->D:\AndroidStudioProjects\Learn\Room-Retrofit-mvvm-hilt\Retrofit_Room_Hilt_MVVM_Kotlin\app\src\main\AndroidManifest.xml:7:9-35
+15-->C:\Users\user\Desktop\GPSTracker\app\src\main\AndroidManifest.xml:7:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.6.0] C:\Users\CC4\.gradle\caches\transforms-2\files-2.1\c7563d4ed8d6cb8036179bb5de5b8d8a\core-1.6.0\AndroidManifest.xml:24:18-86
+16-->[androidx.core:core:1.7.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\63555a7e282342d23daaee012f1b3fac\core-1.7.0\AndroidManifest.xml:24:18-86
 17        android:debuggable="true"
 18        android:extractNativeLibs="false"
 19        android:icon="@mipmap/ic_launcher"
-19-->D:\AndroidStudioProjects\Learn\Room-Retrofit-mvvm-hilt\Retrofit_Room_Hilt_MVVM_Kotlin\app\src\main\AndroidManifest.xml:9:9-43
+19-->C:\Users\user\Desktop\GPSTracker\app\src\main\AndroidManifest.xml:9:9-43
 20        android:label="@string/app_name"
-20-->D:\AndroidStudioProjects\Learn\Room-Retrofit-mvvm-hilt\Retrofit_Room_Hilt_MVVM_Kotlin\app\src\main\AndroidManifest.xml:10:9-41
+20-->C:\Users\user\Desktop\GPSTracker\app\src\main\AndroidManifest.xml:10:9-41
 21        android:roundIcon="@mipmap/ic_launcher_round"
-21-->D:\AndroidStudioProjects\Learn\Room-Retrofit-mvvm-hilt\Retrofit_Room_Hilt_MVVM_Kotlin\app\src\main\AndroidManifest.xml:11:9-54
+21-->C:\Users\user\Desktop\GPSTracker\app\src\main\AndroidManifest.xml:11:9-54
 22        android:supportsRtl="true"
-22-->D:\AndroidStudioProjects\Learn\Room-Retrofit-mvvm-hilt\Retrofit_Room_Hilt_MVVM_Kotlin\app\src\main\AndroidManifest.xml:12:9-35
+22-->C:\Users\user\Desktop\GPSTracker\app\src\main\AndroidManifest.xml:12:9-35
 23        android:testOnly="true"
 24        android:theme="@style/Theme.Paging3WithRoom" >
-24-->D:\AndroidStudioProjects\Learn\Room-Retrofit-mvvm-hilt\Retrofit_Room_Hilt_MVVM_Kotlin\app\src\main\AndroidManifest.xml:13:9-53
-25        <activity android:name="com.rohit.room.MainActivity" >
-25-->D:\AndroidStudioProjects\Learn\Room-Retrofit-mvvm-hilt\Retrofit_Room_Hilt_MVVM_Kotlin\app\src\main\AndroidManifest.xml:14:9-20:20
-25-->D:\AndroidStudioProjects\Learn\Room-Retrofit-mvvm-hilt\Retrofit_Room_Hilt_MVVM_Kotlin\app\src\main\AndroidManifest.xml:14:19-61
+24-->C:\Users\user\Desktop\GPSTracker\app\src\main\AndroidManifest.xml:13:9-53
+25        <activity android:name="com.rohit.gpstracker.MainActivity" >
+25-->C:\Users\user\Desktop\GPSTracker\app\src\main\AndroidManifest.xml:14:9-20:20
+25-->C:\Users\user\Desktop\GPSTracker\app\src\main\AndroidManifest.xml:14:19-67
 26            <intent-filter>
-26-->D:\AndroidStudioProjects\Learn\Room-Retrofit-mvvm-hilt\Retrofit_Room_Hilt_MVVM_Kotlin\app\src\main\AndroidManifest.xml:15:13-19:29
+26-->C:\Users\user\Desktop\GPSTracker\app\src\main\AndroidManifest.xml:15:13-19:29
 27                <action android:name="android.intent.action.MAIN" />
-27-->D:\AndroidStudioProjects\Learn\Room-Retrofit-mvvm-hilt\Retrofit_Room_Hilt_MVVM_Kotlin\app\src\main\AndroidManifest.xml:16:17-69
-27-->D:\AndroidStudioProjects\Learn\Room-Retrofit-mvvm-hilt\Retrofit_Room_Hilt_MVVM_Kotlin\app\src\main\AndroidManifest.xml:16:25-66
+27-->C:\Users\user\Desktop\GPSTracker\app\src\main\AndroidManifest.xml:16:17-69
+27-->C:\Users\user\Desktop\GPSTracker\app\src\main\AndroidManifest.xml:16:25-66
 28
 29                <category android:name="android.intent.category.LAUNCHER" />
-29-->D:\AndroidStudioProjects\Learn\Room-Retrofit-mvvm-hilt\Retrofit_Room_Hilt_MVVM_Kotlin\app\src\main\AndroidManifest.xml:18:17-77
-29-->D:\AndroidStudioProjects\Learn\Room-Retrofit-mvvm-hilt\Retrofit_Room_Hilt_MVVM_Kotlin\app\src\main\AndroidManifest.xml:18:27-74
+29-->C:\Users\user\Desktop\GPSTracker\app\src\main\AndroidManifest.xml:18:17-77
+29-->C:\Users\user\Desktop\GPSTracker\app\src\main\AndroidManifest.xml:18:27-74
 30            </intent-filter>
 31        </activity>
 32
 33        <service
-33-->[androidx.room:room-runtime:2.4.0-alpha04] C:\Users\CC4\.gradle\caches\transforms-2\files-2.1\22ab35a6cd6d294e8826c4051f18ae48\room-runtime-2.4.0-alpha04\AndroidManifest.xml:25:9-28:40
+33-->[androidx.room:room-runtime:2.5.0-alpha01] C:\Users\user\.gradle\caches\transforms-2\files-2.1\53d61cbfafa5f70f0c013368fe176e3f\room-runtime-2.5.0-alpha01\AndroidManifest.xml:26:9-30:63
 34            android:name="androidx.room.MultiInstanceInvalidationService"
-34-->[androidx.room:room-runtime:2.4.0-alpha04] C:\Users\CC4\.gradle\caches\transforms-2\files-2.1\22ab35a6cd6d294e8826c4051f18ae48\room-runtime-2.4.0-alpha04\AndroidManifest.xml:26:13-74
+34-->[androidx.room:room-runtime:2.5.0-alpha01] C:\Users\user\.gradle\caches\transforms-2\files-2.1\53d61cbfafa5f70f0c013368fe176e3f\room-runtime-2.5.0-alpha01\AndroidManifest.xml:27:13-74
 35            android:directBootAware="true"
-35-->[androidx.room:room-runtime:2.4.0-alpha04] C:\Users\CC4\.gradle\caches\transforms-2\files-2.1\22ab35a6cd6d294e8826c4051f18ae48\room-runtime-2.4.0-alpha04\AndroidManifest.xml:27:13-43
+35-->[androidx.room:room-runtime:2.5.0-alpha01] C:\Users\user\.gradle\caches\transforms-2\files-2.1\53d61cbfafa5f70f0c013368fe176e3f\room-runtime-2.5.0-alpha01\AndroidManifest.xml:28:13-43
 36            android:exported="false" />
-36-->[androidx.room:room-runtime:2.4.0-alpha04] C:\Users\CC4\.gradle\caches\transforms-2\files-2.1\22ab35a6cd6d294e8826c4051f18ae48\room-runtime-2.4.0-alpha04\AndroidManifest.xml:28:13-37
+36-->[androidx.room:room-runtime:2.5.0-alpha01] C:\Users\user\.gradle\caches\transforms-2\files-2.1\53d61cbfafa5f70f0c013368fe176e3f\room-runtime-2.5.0-alpha01\AndroidManifest.xml:29:13-37
 37
 38        <provider
-38-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\CC4\.gradle\caches\transforms-2\files-2.1\03fc017f74a0ec37a532d04870b2fdc2\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-39            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-39-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\CC4\.gradle\caches\transforms-2\files-2.1\03fc017f74a0ec37a532d04870b2fdc2\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-40            android:authorities="com.rohit.room.lifecycle-process"
-40-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\CC4\.gradle\caches\transforms-2\files-2.1\03fc017f74a0ec37a532d04870b2fdc2\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-41            android:exported="false"
-41-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\CC4\.gradle\caches\transforms-2\files-2.1\03fc017f74a0ec37a532d04870b2fdc2\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-42            android:multiprocess="true" />
-42-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\CC4\.gradle\caches\transforms-2\files-2.1\03fc017f74a0ec37a532d04870b2fdc2\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-43    </application>
-44
-45</manifest>
+38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\c671d4c8a92462aba2d4a74b14d6a5d2\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+39            android:name="androidx.startup.InitializationProvider"
+39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\c671d4c8a92462aba2d4a74b14d6a5d2\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+40            android:authorities="com.rohit.gpstracker.androidx-startup"
+40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\c671d4c8a92462aba2d4a74b14d6a5d2\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+41            android:exported="false" >
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\c671d4c8a92462aba2d4a74b14d6a5d2\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+42            <meta-data
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\c671d4c8a92462aba2d4a74b14d6a5d2\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+43                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\c671d4c8a92462aba2d4a74b14d6a5d2\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+44                android:value="androidx.startup" />
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\c671d4c8a92462aba2d4a74b14d6a5d2\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+45            <meta-data
+45-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\51598de16f5c19fda93ebf898bf6d953\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+46                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+46-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\51598de16f5c19fda93ebf898bf6d953\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+47                android:value="androidx.startup" />
+47-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\51598de16f5c19fda93ebf898bf6d953\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+48        </provider>
+49    </application>
+50
+51</manifest>
